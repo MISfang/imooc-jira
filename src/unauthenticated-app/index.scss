@@ -1,0 +1,10 @@
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .changeBtn {
+    width: 240px !important;
+    margin-top: -60px;
+  }
+}

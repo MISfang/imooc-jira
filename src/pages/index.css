@@ -1,0 +1,40 @@
+.Item {
+  padding-left: 22px;
+}
+
+.clearfix::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+.clearfix {
+  *zoom: 1;
+}
+
+.father {
+  position: relative;
+}
+
+.class01 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.class02 {
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  top: calc(50%-6.25rem);
+  left: calc(50%-200px);
+}
+
+.class03 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
